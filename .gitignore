@@ -1,0 +1,5 @@
+# Releases-only repo — plugin zips are published via GitHub Releases, not git commits.
+*
+!.gitignore
+!LICENSE
+!README.md
