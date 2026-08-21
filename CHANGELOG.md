@@ -2,6 +2,10 @@
 
 Consumer-facing summary of each plugin release. (Full development history lives in the private source repository.)
 
+## 2.5.6
+
+- **Admin sidebar icon** — restored the SVG duck in the WP admin menu (PNG plugin icons remain on the Plugins list only).
+
 ## 2.5.5
 
 - **New plugin logo** — updated icon in the WordPress Plugins list and DuckDive admin.
