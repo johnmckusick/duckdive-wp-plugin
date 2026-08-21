@@ -2,6 +2,11 @@
 
 Consumer-facing summary of each plugin release. (Full development history lives in the private source repository.)
 
+## 2.5.9
+
+- **Click to Call integration** — tel: link clicks are now a separate integration card from ServiceTitan Scheduling Pro.
+- **ServiceTitan always on** — removed pilot hostname gate and auto-enable checkbox; works on any DuckDive-configured site.
+
 ## 2.5.8
 
 - **ServiceTitan booking capture fix** — auto-loads the Scheduling Pro integration when the embed script is on the page; captures modal open (`BookingStarted`), contact info, and confirmed bookings via iframe postMessage and dataLayer hooks.
