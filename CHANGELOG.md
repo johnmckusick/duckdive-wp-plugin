@@ -2,6 +2,10 @@
 
 Consumer-facing summary of each plugin release. (Full development history lives in the private source repository.)
 
+## 2.5.7
+
+- **ServiceTitan integration logo** — added missing icon on the Settings integrations card.
+
 ## 2.5.6
 
 - **Admin sidebar icon** — restored the SVG duck in the WP admin menu (PNG plugin icons remain on the Plugins list only).
