@@ -2,6 +2,11 @@
 
 Consumer-facing summary of each plugin release. (Full development history lives in the private source repository.)
 
+## 2.5.5
+
+- **New plugin logo** — updated icon in the WordPress Plugins list and DuckDive admin.
+- **ServiceTitan Scheduling Pro** — plugin ready for booking and click-to-call capture (tracker updates are delivered via DuckDive cloud; no extra site config required).
+
 ## 2.5.4
 
 - **Form tracking is always on** — Elementor, HubSpot, Go High Level, Contact Form 7, Gravity Forms, WPForms, and other supported builders are tracked automatically. No per-platform toggles required.
