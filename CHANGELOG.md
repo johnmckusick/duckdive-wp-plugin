@@ -2,6 +2,35 @@
 
 Consumer-facing summary of each plugin release. (Full development history lives in the private source repository.)
 
+## 2.6.8
+
+- **Leads grouped by visitor** — the DuckDive admin groups each visitor's phone views, clicks, and bookings into one journey.
+- **ChatGPT Ads click IDs** — `campaign_id`, `ad_group_id`, `ad_id`, and `ad_account_id` are captured and attributed to ChatGPT Ads.
+- **Lead export** — `/leads/export` returns leads for ROAS reporting, authenticated with the site's DuckDive API key.
+
+## 2.6.7
+
+- **ServiceTitan DNI timing fix** — waits for `dni('load')` before logging phone impressions so the swapped tracking number is captured instead of the static main line.
+
+## 2.6.6
+
+- **Phone impressions prefer visible DNI text** — captures the number shown on the page, not the stale `tel:` href.
+- **Cross-page impression dedupe** — one impression per visitor + phone number per 30 minutes across page navigations.
+- **Lead detail modal** — IP address now appears in Device & Browser.
+
+## 2.6.5
+
+- **Phone Number Display uses the bundled tracker** — when enabled, the plugin loads the local tracker script so impressions work even before the cloud tracker is updated on Render.
+
+## 2.6.4
+
+- **Phone Number Display is optional** — off by default; enable under DuckDive → Settings → Integrations for sites using DNI or manual-dial attribution.
+
+## 2.6.3
+
+- **Phone Number Display** — logs the visible DNI/`tel:` number when it appears on the page (including after ServiceTitan DNI swaps), so manual dialers can be attributed without a click.
+- **Lead export enrichment** — `/leads/export` now includes visitor IP, user agent, and device/browser context for ROAS reporting.
+
 ## 2.5.9
 
 - **Click to Call integration** — tel: link clicks are now a separate integration card from ServiceTitan Scheduling Pro.
