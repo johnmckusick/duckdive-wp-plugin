@@ -2,6 +2,10 @@
 
 Consumer-facing summary of each plugin release. (Full development history lives in the private source repository.)
 
+## 2.6.9
+
+- **Guard security check** — read-only endpoints MasterDoc calls once a day to report WordPress and plugin versions, administrators, application passwords, publishing totals, daily login counts, and recent content, plugin, and theme changes. Readable only by an Editor or above signed in with an application password; changes nothing on the site.
+
 ## 2.6.8
 
 - **Leads grouped by visitor** — the DuckDive admin groups each visitor's phone views, clicks, and bookings into one journey.
