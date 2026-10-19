@@ -2,6 +2,11 @@
 
 Consumer-facing summary of each plugin release. (Full development history lives in the private source repository.)
 
+## 2.6.10
+
+- **Guard change log** — post, page, plugin, theme, and user account changes are recorded when they happen, with the user who made them, their IP address, browser, and how they signed in (WordPress admin, application password, WP-CLI, or cron). User history covers accounts created or deleted, password changes and resets, email and role changes, and application passwords created or revoked. A new read-only `changes` endpoint lets MasterDoc show the log live. Older edits are attributed from the revision saved with them instead of the post author.
+- **Guard security check** — also reports plugins hidden from the Plugins screen, must-use plugins, drop-ins, plugins and themes with code on WordPress logins, and when the last post was published.
+
 ## 2.6.9
 
 - **Guard security check** — read-only endpoints MasterDoc calls once a day to report WordPress and plugin versions, administrators, application passwords, publishing totals, daily login counts, and recent content, plugin, and theme changes. Readable only by an Editor or above signed in with an application password; changes nothing on the site.
